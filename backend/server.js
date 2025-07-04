@@ -26,5 +26,5 @@ app.post("/login", (req, res) => {
 // ✅ Use process.env.PORT for Render
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
-  console.log(`Server started on http://localhost:${PORT}`);
+  console.log(`Server running on http://localhost:${PORT}`);
 });
